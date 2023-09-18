@@ -11,6 +11,8 @@ Press 6 for Calculate profit."""))
         PowerCalc()
     elif MenuInt == 3:
         TwoSum()
+    elif MenuInt == 4:
+        AgeConvert()
 
                
 #Area of a Triangle
@@ -46,7 +48,7 @@ def AgeConvert():
     age = -1
     while age < 0:
         age = int(input("Enter age"))
-    days = age * 365
+    days = age * 365.25
     print(days)
     Menu()
 
